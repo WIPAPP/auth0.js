@@ -1,4 +1,13 @@
 
+## [v9.11.0](https://github.com/auth0/auth0.js/tree/v9.11.0) (2019-06-13)
+[Full Changelog](https://github.com/auth0/auth0.js/compare/v9.10.4...v9.11.0)
+
+**Added**
+- Add method to patch root user attriutes [\#949](https://github.com/auth0/auth0.js/pull/949) ([luisrudge](https://github.com/luisrudge))
+
+**Fixed**
+- Ignore syntax errors from popups [\#948](https://github.com/auth0/auth0.js/pull/948) ([luisrudge](https://github.com/luisrudge))
+
 ## [v9.10.4](https://github.com/auth0/auth0.js/tree/v9.10.4) (2019-05-24)
 [Full Changelog](https://github.com/auth0/auth0.js/compare/v9.10.3...v9.10.4)
 
