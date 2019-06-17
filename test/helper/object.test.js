@@ -611,6 +611,26 @@ describe('helpers', function() {
         pathname: '/foo',
         search: '?id=1',
         hash: ''
+      },
+      'capacitor://localhost/callback?id=1': {
+        href: 'capacitor://localhost/callback?id=1',
+        protocol: 'capacitor:',
+        host: 'localhost',
+        hostname: 'localhost',
+        port: undefined,
+        pathname: '/callback',
+        search: '?id=1',
+        hash: ''
+      },
+      'com.wipster.app://localhost/callback?id=1': {
+        href: 'com.wipster.app://localhost/callback?id=1',
+        protocol: 'com.wipster.app:',
+        host: 'localhost',
+        hostname: 'localhost',
+        port: undefined,
+        pathname: '/callback',
+        search: '?id=1',
+        hash: ''
       }
     };
     for (const url in mapping) {

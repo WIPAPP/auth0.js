@@ -124,7 +124,7 @@ function toCamelCase(object, exceptions, options) {
 
 function getLocationFromUrl(href) {
   var match = href.match(
-    /^(https?:|file:|capacitor:)\/\/(([^:/?#]*)(?::([0-9]+))?)([/]{0,1}[^?#]*)(\?[^#]*|)(#.*|)$/
+    /^([a-zA-Z.]*:)\/\/(([^:/?#]*)(?::([0-9]+))?)([/]{0,1}[^?#]*)(\?[^#]*|)(#.*|)$/
   );
   return (
     match && {
